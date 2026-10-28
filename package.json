@@ -1,0 +1,14 @@
+{
+  "name": "deeptutor-desktop",
+  "productName": "DeepTutor",
+  "version": "1.7.0",
+  "description": "Unofficial Windows desktop shell for DeepTutor (HKUDS)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . DeepTutor --platform=win32 --arch=x64 --icon=app-multi.ico --out=dist --overwrite --electron-version=33.4.11"
+  },
+  "author": "fangcaiyi63-creator",
+  "license": "Apache-2.0",
+  "type": "commonjs"
+}
